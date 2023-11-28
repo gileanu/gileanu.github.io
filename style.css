@@ -1,0 +1,26 @@
+body {
+    background-color: #1C0118;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding-top: 15%;
+    height: 100%;
+    width: 100%;
+}
+
+::placeholder {
+    color: #000;
+    font-size: 14px;
+  }
