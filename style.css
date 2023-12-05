@@ -25,18 +25,18 @@ h1 {
     font-size: 14px;
   }
 
-.form-flex {
+.flexform {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 20%;
 }
 
-.form-flex #firstname,  #lastname , #sendBtn{
-    width: 300px;
+input {
     padding: 5px;
     margin: 5px;
 }
 
-.form-flex #sendBtn {
-    margin: 15px;
+.formwrapper {
+    display: grid;
 }
