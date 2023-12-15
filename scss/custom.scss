@@ -17,3 +17,10 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark
 );
+
+body {
+    color: $blue-800!important;
+}
+h1 {
+    color: $indigo-100;
+}
